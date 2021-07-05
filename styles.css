@@ -28,13 +28,20 @@ body {
 }
 
 .subarticle {
+    display: flex;
     flex-wrap: wrap;
+
 }
 
 .item {
     background-color: orange;
-    padding: 5px;
     flex: 0 0 calc(50% - 10px);
+    margin: 5px;
+}
+
+#thrd {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .aside {
